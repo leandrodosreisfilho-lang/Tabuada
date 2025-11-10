@@ -58,7 +58,7 @@ public class TelaTabuada extends Application {
 
         //colocar os componentes no grid
         gridFormulario.add(labelMultiplicando, 0, 0);
-        gridFormulario.add(textFieldMultiplicando,0, 2);
+
 
 
         //criar caixa dos botoes
@@ -72,7 +72,8 @@ public class TelaTabuada extends Application {
         Button botaoSalvar = new Button("Sair");
 
         //adicionar botão
-        boxBotoes.getChildren().addAll(botaoCalcular,botaoLimpar,botaoSalvar);
+
+
 
 
         Label labelresultado = new Label("Resultado");
